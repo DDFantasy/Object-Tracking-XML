@@ -1,4 +1,8 @@
+This project is based on SiamFc-TensorFlow
+I hava change this troject to read ground_truth in XML files, and the hyperparameters "scale_num" can be set. 
+
 # SiamFC - TensorFlow
+
 TensorFlow port of the tracking method described in the paper [*Fully-Convolutional Siamese nets for object tracking*](https://www.robots.ox.ac.uk/~luca/siamese-fc.html).
 
 In particular, it is the improved version presented as baseline in [*End-to-end representation learning for Correlation Filter based tracking*](https://www.robots.ox.ac.uk/~luca/cfnet.html), which achieves state-of-the-art performance at high framerate. The other methods presented in the paper (similar performance, shallower network) haven't been ported yet.
